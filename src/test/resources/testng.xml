@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- <suite name="Fossil E-Commerce Regression Suite" verbose="1" parallel="false">
+  <test name="Guest Shopping Tests">
+    <classes>
+      <class name="tests.ProductDiscoveryTest"/>
+      <class name="tests.GuestCartTest"/>
+    </classes>
+  </test>
+</suite> -->
+
+<suite name="Fossil Test Suite">
+
+    <test name="Product Discovery">
+
+        <classes>
+            <class name="tests.ProductDiscoveryTest"/>
+        </classes>
+
+    </test>
+
+</suite>
