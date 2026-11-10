@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="23.363" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ashis\Downloads\FossilAutomationFramework\FossilAutomationFramework\target\test-classes;C:\Users\ashis\Downloads\FossilAutomationFramework\FossilAutomationFramework\target\classes;C:\Users\ashis\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\ashis\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\ashis\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ashis\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-java\4.52.0\selenium-java-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-api\4.52.0\selenium-api-4.52.0.jar;C:\Users\ashis\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.52.0\selenium-chrome-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.52.0\selenium-chromium-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-json\4.52.0\selenium-json-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.52.0\selenium-manager-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.52.0\selenium-devtools-latest-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v154\4.52.0\selenium-devtools-v154-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v155\4.52.0\selenium-devtools-v155-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v156\4.52.0\selenium-devtools-v156-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.52.0\selenium-edge-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.52.0\selenium-firefox-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.52.0\selenium-ie-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.52.0\selenium-remote-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\com\google\guava\guava\33.7.2-jre\guava-33.7.2-jre.jar;C:\Users\ashis\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\ashis\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ashis\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\ashis\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-api\1.67.0\opentelemetry-api-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-context\1.67.0\opentelemetry-context-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-common\1.67.0\opentelemetry-common-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.67.0\opentelemetry-exporter-logging-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.67.0\opentelemetry-sdk-common-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.67.0\opentelemetry-sdk-extension-autoconfigure-spi-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.67.0\opentelemetry-sdk-extension-autoconfigure-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.67.0\opentelemetry-sdk-trace-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.67.0\opentelemetry-sdk-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.67.0\opentelemetry-sdk-metrics-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.67.0\opentelemetry-sdk-logs-1.67.0.jar;C:\Users\ashis\.m2\repository\net\bytebuddy\byte-buddy\1.18.15\byte-buddy-1.18.15.jar;C:\Users\ashis\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-http\4.52.0\selenium-http-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-os\4.52.0\selenium-os-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.52.0\selenium-safari-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-support\4.52.0\selenium-support-4.52.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\ashis\AppData\Local\Temp\surefire16947686107907577301\surefirebooter-20261110160853155_3.jar C:\Users\ashis\AppData\Local\Temp\surefire16947686107907577301 2026-11-10T16-08-53_038-jvmRun1 surefire-20261110160853155_1tmp surefire_0-20261110160853155_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ashis\Downloads\FossilAutomationFramework\FossilAutomationFramework\target\test-classes;C:\Users\ashis\Downloads\FossilAutomationFramework\FossilAutomationFramework\target\classes;C:\Users\ashis\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\ashis\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\ashis\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ashis\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-java\4.52.0\selenium-java-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-api\4.52.0\selenium-api-4.52.0.jar;C:\Users\ashis\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.52.0\selenium-chrome-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.52.0\selenium-chromium-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-json\4.52.0\selenium-json-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.52.0\selenium-manager-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.52.0\selenium-devtools-latest-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v154\4.52.0\selenium-devtools-v154-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v155\4.52.0\selenium-devtools-v155-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v156\4.52.0\selenium-devtools-v156-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.52.0\selenium-edge-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.52.0\selenium-firefox-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.52.0\selenium-ie-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.52.0\selenium-remote-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\com\google\guava\guava\33.7.2-jre\guava-33.7.2-jre.jar;C:\Users\ashis\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\ashis\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ashis\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\ashis\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-api\1.67.0\opentelemetry-api-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-context\1.67.0\opentelemetry-context-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-common\1.67.0\opentelemetry-common-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.67.0\opentelemetry-exporter-logging-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.67.0\opentelemetry-sdk-common-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.67.0\opentelemetry-sdk-extension-autoconfigure-spi-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.67.0\opentelemetry-sdk-extension-autoconfigure-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.67.0\opentelemetry-sdk-trace-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.67.0\opentelemetry-sdk-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.67.0\opentelemetry-sdk-metrics-1.67.0.jar;C:\Users\ashis\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.67.0\opentelemetry-sdk-logs-1.67.0.jar;C:\Users\ashis\.m2\repository\net\bytebuddy\byte-buddy\1.18.15\byte-buddy-1.18.15.jar;C:\Users\ashis\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-http\4.52.0\selenium-http-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-os\4.52.0\selenium-os-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.52.0\selenium-safari-driver-4.52.0.jar;C:\Users\ashis\.m2\repository\org\seleniumhq\selenium\selenium-support\4.52.0\selenium-support-4.52.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ashis"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ashis\Downloads\FossilAutomationFramework\FossilAutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ashis\AppData\Local\Temp\surefire16947686107907577301\surefirebooter-20261110160853155_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25+37-LTS-3491"/>
+    <property name="user.name" value="ashis"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ashis\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ashis\AppData\Local\Temp\"/>
+    <property name="java.version" value="25"/>
+    <property name="user.dir" value="C:\Users\ashis\Downloads\FossilAutomationFramework\FossilAutomationFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\apache-maven-3.10.0-bin\apache-maven-3.10.0\bin;C:\Program Files\Java\jdk-25\bin;C:\gradle-8.14.6\bin;C:\Users\ashis\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\ashis\AppData\Local\Programs\Python\Python313\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ashis\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\ashis\AppData\Local\Programs\Python\Python314\;C:\Users\ashis\AppData\Local\Programs\Python\Launcher\;C:\Users\ashis\AppData\Local\Microsoft\WindowsApps;C:\Users\ashis\AppData\Roaming\npm;C:\Users\ashis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ashis\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\ashis\AppData\Local\Programs\Ollama;C:\Users\ashis\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\Users\ashis\AppData\Local\Microsoft\WinGet\Packages\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe;;c:\Users\ashis\.vscode\extensions\vscjava.vscode-java-debug-0.60.0\bundled\scripts\noConfigScripts;c:\Users\ashis\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\ashis\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25+37-LTS-3491"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="cartQuantityControlAvailability" classname="tests.GuestCartTest" time="4.299">
+    <system-out><![CDATA[Searching product: watch
+Current URL: https://fi.revalsys.com/
+Search submitted for: watch
+Current URL after opening product: https://fi.revalsys.com/products/fossil-raquel-watch-ring-gold-watch/ES5448.html
+First product opened.
+Clicked Add To Bag button.
+Opened shopping cart.
+INFO: No editable quantity input exposed in this cart UI; quantity test is not applicable.
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Nov 10, 2026 4:08:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 157, returning the closest version; found: 156; Please update to a Selenium version that supports CDP version 157
+]]></system-err>
+  </testcase>
+  <testcase name="guestCanAddProductToCart" classname="tests.GuestCartTest" time="4.109">
+    <system-out><![CDATA[Searching product: watch
+Current URL: https://fi.revalsys.com/
+Search submitted for: watch
+Current URL after opening product: https://fi.revalsys.com/products/fossil-raquel-watch-ring-gold-watch/ES5448.html
+First product opened.
+Clicked Add To Bag button.
+Opened shopping cart.
+]]></system-out>
+    <system-err><![CDATA[Nov 10, 2026 4:09:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 157, returning the closest version; found: 156; Please update to a Selenium version that supports CDP version 157
+]]></system-err>
+  </testcase>
+  <testcase name="guestCanDiscoverProduct" classname="tests.ProductDiscoveryTest" time="2.888">
+    <system-out><![CDATA[Searching product: watch
+Current URL: https://fi.revalsys.com/
+Search submitted for: watch
+Current URL after opening product: https://fi.revalsys.com/products/fossil-raquel-watch-ring-gold-watch/ES5448.html
+First product opened.
+
+========== PRODUCT PAGE DEBUG ==========
+URL: https://fi.revalsys.com/products/fossil-raquel-watch-ring-gold-watch/ES5448.html
+Product Name: Fossil Raquel Watch Ring Gold Watch - ES5448
+Product Price: Fossil Raquel Watch Ring Gold Watch - ES5448
+Overall -
+3.5 ★ / 20 reviews
+i
+Rated 3.5 ★ on Fossil.in
+Now
+₹ 10,995.00
+(Inclusive of all taxes)
+MRP
+₹11,995.00
+(8% off)
+Product Details Visible: true
+Add To Bag Visible: true
+========== END DEBUG ==========
+
+]]></system-out>
+    <system-err><![CDATA[Nov 10, 2026 4:09:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 157, returning the closest version; found: 156; Please update to a Selenium version that supports CDP version 157
+]]></system-err>
+  </testcase>
+</testsuite>
